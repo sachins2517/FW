@@ -1,0 +1,9 @@
+<suite name="Suite">
+  <test name="Test">
+  <paramater name = "ip" value ="localhost"/>
+  <paramater name = "browser" value ="chrome"/>
+    <classes>
+      <class name="script.DemoA"/> 
+    </classes>
+  </test>
+</suite>
