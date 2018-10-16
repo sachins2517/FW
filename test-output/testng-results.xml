@@ -5,12 +5,12 @@
       <![CDATA[TestName: null Status: Pass]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="6935" started-at="2018-10-15T13:21:07Z" finished-at="2018-10-15T13:21:14Z">
+  <suite name="Suite" duration-ms="5936" started-at="2018-10-16T05:28:02Z" finished-at="2018-10-16T05:28:08Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="6935" started-at="2018-10-15T13:21:07Z" finished-at="2018-10-15T13:21:14Z">
+    <test name="Test" duration-ms="5936" started-at="2018-10-16T05:28:02Z" finished-at="2018-10-16T05:28:08Z">
       <class name="script.DemoA">
-        <test-method status="FAIL" signature="openApp(java.lang.String, java.lang.String)[pri:0, instance:script.DemoA@78e67e0a]" name="openApp" is-config="true" duration-ms="6722" started-at="2018-10-15T13:21:07Z" finished-at="2018-10-15T13:21:14Z">
+        <test-method status="FAIL" signature="openApp(java.lang.String, java.lang.String)[pri:0, instance:script.DemoA@78e67e0a]" name="openApp" is-config="true" duration-ms="5769" started-at="2018-10-16T05:28:02Z" finished-at="2018-10-16T05:28:07Z">
           <params>
             <param index="0">
               <value>
@@ -25,7 +25,7 @@
           </params>
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[unknown error: Runtime.executionContextCreated has invalid 'context': {"auxData":{"frameId":"3DBFE6C5B87F975D259033107B07D46A","isDefault":true},"id":1,"name":"","origin":"://"}
+              <![CDATA[unknown error: Runtime.executionContextCreated has invalid 'context': {"auxData":{"frameId":"DD92AF7DD55151AE628E3091953F411F","isDefault":true},"id":1,"name":"","origin":"://"}
   (Session info: chrome=69.0.3497.100)
   (Driver info: chromedriver=2.9.248307,platform=Mac OS X 10.12.0 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
@@ -33,10 +33,10 @@ Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.
 System info: host: 'BTC-Mac.local', ip: 'fe80:0:0:0:18c4:c4cc:bdf8:88d5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12', java.version: '1.8.0_101'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {userDataDir: /var/folders/ty/3vsm8cdd1ss...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: true, nativeEvents: true, platform: MAC, platformName: MAC, rotatable: false, takesHeapSnapshot: true, takesScreenshot: true, version: 69.0.3497.100, webStorageEnabled: true}
-Session ID: 3ff2dd9680c30a0523190eeec5721b19]]>
+Session ID: 469da040988ede7ef36f691b12c15fc9]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Runtime.executionContextCreated has invalid 'context': {"auxData":{"frameId":"3DBFE6C5B87F975D259033107B07D46A","isDefault":true},"id":1,"name":"","origin":"://"}
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Runtime.executionContextCreated has invalid 'context': {"auxData":{"frameId":"DD92AF7DD55151AE628E3091953F411F","isDefault":true},"id":1,"name":"","origin":"://"}
   (Session info: chrome=69.0.3497.100)
   (Driver info: chromedriver=2.9.248307,platform=Mac OS X 10.12.0 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
@@ -44,7 +44,7 @@ Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.
 System info: host: 'BTC-Mac.local', ip: 'fe80:0:0:0:18c4:c4cc:bdf8:88d5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12', java.version: '1.8.0_101'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {userDataDir: /var/folders/ty/3vsm8cdd1ss...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: true, nativeEvents: true, platform: MAC, platformName: MAC, rotatable: false, takesHeapSnapshot: true, takesScreenshot: true, version: 69.0.3497.100, webStorageEnabled: true}
-Session ID: 3ff2dd9680c30a0523190eeec5721b19
+Session ID: 469da040988ede7ef36f691b12c15fc9
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -93,10 +93,10 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method status="SKIP" signature="testA()[pri:0, instance:script.DemoA@78e67e0a]" name="testA" duration-ms="0" started-at="2018-10-15T13:21:14Z" finished-at="2018-10-15T13:21:14Z">
+        <test-method status="SKIP" signature="testA()[pri:0, instance:script.DemoA@78e67e0a]" name="testA" duration-ms="0" started-at="2018-10-16T05:28:08Z" finished-at="2018-10-16T05:28:08Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[unknown error: Runtime.executionContextCreated has invalid 'context': {"auxData":{"frameId":"3DBFE6C5B87F975D259033107B07D46A","isDefault":true},"id":1,"name":"","origin":"://"}
+              <![CDATA[unknown error: Runtime.executionContextCreated has invalid 'context': {"auxData":{"frameId":"DD92AF7DD55151AE628E3091953F411F","isDefault":true},"id":1,"name":"","origin":"://"}
   (Session info: chrome=69.0.3497.100)
   (Driver info: chromedriver=2.9.248307,platform=Mac OS X 10.12.0 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
@@ -104,10 +104,10 @@ Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.
 System info: host: 'BTC-Mac.local', ip: 'fe80:0:0:0:18c4:c4cc:bdf8:88d5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12', java.version: '1.8.0_101'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {userDataDir: /var/folders/ty/3vsm8cdd1ss...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: true, nativeEvents: true, platform: MAC, platformName: MAC, rotatable: false, takesHeapSnapshot: true, takesScreenshot: true, version: 69.0.3497.100, webStorageEnabled: true}
-Session ID: 3ff2dd9680c30a0523190eeec5721b19]]>
+Session ID: 469da040988ede7ef36f691b12c15fc9]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Runtime.executionContextCreated has invalid 'context': {"auxData":{"frameId":"3DBFE6C5B87F975D259033107B07D46A","isDefault":true},"id":1,"name":"","origin":"://"}
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Runtime.executionContextCreated has invalid 'context': {"auxData":{"frameId":"DD92AF7DD55151AE628E3091953F411F","isDefault":true},"id":1,"name":"","origin":"://"}
   (Session info: chrome=69.0.3497.100)
   (Driver info: chromedriver=2.9.248307,platform=Mac OS X 10.12.0 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
@@ -115,7 +115,7 @@ Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.
 System info: host: 'BTC-Mac.local', ip: 'fe80:0:0:0:18c4:c4cc:bdf8:88d5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12', java.version: '1.8.0_101'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {userDataDir: /var/folders/ty/3vsm8cdd1ss...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: true, nativeEvents: true, platform: MAC, platformName: MAC, rotatable: false, takesHeapSnapshot: true, takesScreenshot: true, version: 69.0.3497.100, webStorageEnabled: true}
-Session ID: 3ff2dd9680c30a0523190eeec5721b19
+Session ID: 469da040988ede7ef36f691b12c15fc9
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -164,7 +164,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testA -->
-        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:script.DemoA@78e67e0a]" name="closeApp" is-config="true" duration-ms="130" started-at="2018-10-15T13:21:14Z" finished-at="2018-10-15T13:21:14Z">
+        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:script.DemoA@78e67e0a]" name="closeApp" is-config="true" duration-ms="82" started-at="2018-10-16T05:28:08Z" finished-at="2018-10-16T05:28:08Z">
           <params>
             <param index="0">
               <value>
